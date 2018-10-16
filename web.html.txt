@@ -1,0 +1,10 @@
+<!DOCTYPE>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Intro to my first web page</title>
+	</head>
+	
+	<body>
+		<img src="C:\Users\Asus P550L\Desktop\Working file\comistic\kieu.jpg" alt="kieu house" width="500" height="333">
+	</body>

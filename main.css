@@ -1,0 +1,362 @@
+
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width: 100%;
+}
+
+    .img{
+        width:25%;
+  
+    }
+
+    .img1{
+        width:25%;
+    }
+
+
+
+#search{
+    width:400px;
+    padding:10px;
+    border:1px solid green;
+}
+
+
+#submit{
+    padding:10px;
+    background: green;
+    border: 1px solid #333;
+    color:white;
+    margin-left:-5px;	
+
+}
+
+.search-form{
+    border:1px solid green;
+    margin-top:-10px;
+    width: 100%;
+}
+
+#submit:hover{
+    background:black;
+    transition: all 1.0;	
+ }
+
+        
+
+
+
+.nav{    
+    list-style:none;
+    text-align:center;
+    
+    color:white;
+}
+
+.nav > li {
+    position:relative;
+    display:inline-block;
+    padding-right:50px;
+}
+
+.nav > li > a {
+        font-size:25px;
+        color:white;
+        text-decoration: none;
+}
+
+.nav > li > a:hover{
+    color:yellow;		
+}
+
+
+
+.navbar{
+    padding:0;
+    position:absolute;
+    margin:0px;
+    list-style:none;
+    display:none;
+    width:max-content;/*??????*/ 
+}
+
+
+.navbar > li{
+        background-color:BFCAE6;
+        opacity:0.8;
+        padding:5px;
+}
+
+
+.navbar > li > a{
+    display:block;
+}
+
+
+.navbar > li > a:hover{
+    background-color:green;	
+}
+
+
+
+
+.nav > li:hover > .navbar {
+    display:block;
+    z-index:1;
+}
+
+.none-border{
+    border:none;
+    width: 100%;
+}
+
+.bg-pink{
+    margin: 0;
+    padding:20px 0 20px 40px;
+    height: 28px;
+    background-color:pink;
+}
+
+.bg-yellowgreen{
+    margin:0;
+    padding:0;
+    height: 68px;
+    background-color: pink;
+}
+
+.text{
+    padding:0px;
+    margin:0px;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    width: 460px;
+    padding:10px 0 0 0;
+    color:white;
+}
+
+.typewriter {
+    overflow:hidden;/*ensures the content is not revealed until the animation*/
+    border-right: .05em solid orange;/*the typewriter cursor*/
+    white-space:nowrap;/*keep a content on a single line*/
+    padding: 10px;
+    margin:0 auto;/*gives that crolling effec as the typing happens*/
+    animation:
+    typing 4.5s steps(30), 
+    blink-caret .55s step-end infinite; 
+}
+
+
+@keyframes typing{
+    from{width:0}
+    to{width:460px;}
+}
+
+
+@keyframes blink-caret{/*??????*/ 
+    
+    from,to{border-color:transparent}
+    50%{border-color:orange;}
+    
+}
+
+/*.slider{
+    overflow: hidden;
+}*/
+
+/*@keyframes slide{
+    0%{
+        left:0%;
+    }
+
+    10%{
+        left:0%;
+    }
+
+    12%{
+        left:-100%;
+    }
+
+    22%{
+        left:-100%;
+    }
+
+    24%{
+        left:-200%;
+    }
+
+    34%{
+        left:-200%;   
+    }
+
+    36%{
+        left:-300%;
+    }
+    46%{
+        left:-300%;
+    }
+
+    48%{
+        left:-400%;
+    }
+
+
+    58%{
+        left:-400%;
+    }
+
+
+    60%{
+        left:-300%;
+    }
+
+
+    70%{
+        left:-300%;
+    }
+
+    72%{
+        left:-200%;
+    }
+
+
+    82%{
+        left:-200%;
+    }
+
+
+    84%{
+        left:-100%;
+    }
+
+
+    94%{
+        left:-100%;
+    }
+
+    96%{
+        left:0%;
+    }
+
+
+}*/
+
+/*.slider figure img{     
+    width:20%;
+    float:left;
+}
+
+.slider figure{
+    position: relative;
+    margin:0px;
+    padding:0px;
+    width: 500%;
+    animation: 20s slide infinite;
+}
+*/
+
+
+
+
+.container-div{
+   position: relative;
+    max-width: 935px;
+    padding-bottom: 40%;/*(400*100%)/1000*/
+    margin:0 auto;  
+    /* canh le */
+    height: 0;
+}
+
+.container-div img{
+    width: 100%;
+    position: absolute;
+    height: 100%; 
+    /* 100% cua container-div */
+}
+
+
+
+   .container-div .pre{
+       position: absolute;
+        width: 50px;
+        height: 50px;
+        top:165px;
+        border-radius:25px;
+        border:none;
+   }
+
+   .container-div .next{
+       position:absolute;
+       right:0;
+       width: 50px;
+       height: 50px;
+       top:165px;
+       border-radius:25px;
+       border:none;
+   }
+
+   .next:hover{
+       background-color: aqua;
+       
+   }
+
+   .pre:hover{
+       background-color: aqua;
+       
+   }
+
+   button:focus{
+       outline: none;
+   }
+
+
+  .container-div .dot {
+    position: relative;
+    width: 19%;
+    height: 93px;
+    background-color:burlywood;
+    display: inline-block;
+    top:440px;
+    left:14px;
+    opacity: 0.6;
+  }
+  
+  .numberText{
+    position: absolute;
+    
+}
+
+.grow {
+     transition: all .2s ease-in-out; 
+}
+
+.grow:hover {
+     transform: scale(2.1);
+     opacity:1;
+     z-index:1;
+}
+
+.container_div .active{
+    
+  }
+ 
+  .fade{
+      animation: fade;
+      animation-duration: 0.15s;
+  }
+
+  @keyframes fade{
+      from{opacity: .5;}
+      to{opacity: 1;}
+  }
+
+
+
+
+
+
+
+
+  

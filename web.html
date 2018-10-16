@@ -1,0 +1,127 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Intro to my first web page</title>
+
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+	<div class="bg-pink">
+	</div>
+
+	<div class="container">
+		<img class="img" src="./kieu.jpg" alt="kieu house">
+		<img class="img" src="./kieu2.jpg" alt="kieu house">
+		<img class="img" src="./kieu3.jpg" alt="kieu house">
+		<form class="search-form" action="http://tuixachquangchau.net/">
+			<input class="none-border" type="text" placeholder="Search Your Product......." maxlength="200">
+			<input type="submit" value="search">
+		</form>
+	</div>
+
+	<div>
+		<ul class="nav bg-pink">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#intro">Intro</a>
+				<ul class="navbar">
+					<li><a href="">History</a></li>
+					<li><a>Kieu_House</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#stores">Stores</a>
+				<ul class="navbar">
+					<li><a>Nguyễn Thị Minh Khai</a></li>
+					<li><a>Nam Kỳ Khởi Nghĩa</a></li>
+					<li><a>Hai Bà Trưng</a></li>
+					<li><a>3 Tháng 2</a></li>
+				</ul>
+
+
+			</li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#product">Products</a>
+				<ul class="navbar">
+					<li><a>For Men</a></li>
+					<li><a>For Women</a></li>
+					<li><a>For kids</a></li>
+					<li><a>For Aduits</a></li>
+				</ul>
+
+			</li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</div>
+
+
+	<div class="container-div">
+
+
+		<img class="slide fade" src="./kieu4.jpg" alt="Kieu_House">
+		<div class="numberText"> 1/5 </div>
+
+
+
+		<img class="slide fade" src="./kieu5.jpg" alt="Kieu_House">
+		<div class="numberText">2/5</div>
+
+
+
+		<img class="slide fade" src="./kieu6.jpg" alt="Kieu_House">
+		<div class="numberText">3/5</div>
+
+
+
+
+		<img class="slide fade" src="./kieu7.jpg" alt="Kieu_House">
+		<div class="numberText">4/5</div>
+
+
+
+
+		<img class="slide fade" src="./kieu8.jpg" alt="Kieu_House">
+		<div class="numberText">5/5</div>
+
+
+		<button class="pre" onclick="plusindex(-1)">&#10094</button>
+		<button class="next" onclick="plusindex(1)">&#10095</button>
+
+		<div>
+			<img class="dot grow active" src="kieu4.jpg" onclick="currentSlide(1)">
+			<img class="dot grow" src="kieu5.jpg" onclick="currentSlide(2)">
+			<img class="dot grow" src="kieu6.jpg" onclick="currentSlide(3)">
+			<img class="dot grow" src="kieu7.jpg" onclick="currentSlide(4)">
+			<img class="dot grow" src="kieu8.jpg" onclick="currentSlide(5)">
+		</div>
+
+	</div>
+
+
+
+	<div class="bg-yellowgreen">
+		<P class="text typewriter">We Care About Your Beauty! </P>
+	</div>
+
+	<div class="container">
+		<img class="img1" src="./kieu.jpg" alt="Kieu_House">
+		<img class="img1" src="./kieu10.png" alt="Kieu_House">
+		<img class="img1" src="./kieu11.png" alt="Kieu_House">
+		<img class="img1" src="./kieu12.png" alt="Kieu_House">
+	</div>
+
+	<div>
+		<button onclick="clicked()"> Click</button>
+	</div>
+
+	<script src="./main.js"></script>
+
+</body>
+
+
+
+</html>
